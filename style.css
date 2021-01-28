@@ -1,0 +1,110 @@
+body
+{
+	 text-align: center;
+	background-image: url("img/bgd.jpg");
+    height: 100%;
+    width: 100%;
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#container
+{
+	width:1000px;
+	min-height: 100%;
+	margin:auto;
+	background-color:#d9d9d9;
+}
+
+#title
+{
+ 	margin-bottom:20px;
+ 	margin-top: -8px;
+ 	background-color:#cccccc;
+ 	height:140px;
+ 	font-size:	100px;
+ 	padding:30px;
+ 	font-family:Bebas;
+ 	letter-spacing: 5px;
+}
+
+.rectangle
+{
+	margin:40px;
+	background-color:#cccccc;
+	width:920px;
+	height:284px;
+	font-size:80px;
+	line-height: 284px;
+}
+
+.rectangle:hover
+{
+	background-color: #3399ff; 
+}
+
+.box
+{
+	margin-left:40px;
+	margin-right:40px; 
+	background-color:#cccccc;
+	width:420px;
+	height:284px;
+	font-size:80px;
+	float:left;
+	line-height: 284px;
+}
+
+.box:hover
+{
+	background-color: #3399ff;
+}
+
+a.rectanglelink
+{
+	color:#000000;
+	text-decoration: none;
+	display: block;
+	width:920px;
+	height:284px;
+}
+
+a.boxlink
+{
+	color:#000000;
+	text-decoration: none;
+	display: block;
+	width:420px;
+	height:284px;
+}
+
+#content
+{
+	margin:40px;
+	background-color:#cccccc;
+	width:840px;
+	text-align: justify;
+	font-size: 30px;
+	padding: 40px;
+}
+
+#footer
+{
+ 	background-color:#cccccc;
+ 	font-size: 20px;
+ 	height: 40px;
+ 	margin: auto;
+ 	margin-top: 40px;	
+ 	width: 1000px;
+ 	line-height: 40px;
+ 	text-align: center;
+ 	bottom: 0px;
+}
+
+@font-face
+{
+	font-family: Bebas;
+	src: url(Bebas.ttf);
+}
